@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Tiltrotor_6D">
+  <link
+    name="Fusilage">
+    <inertial>
+      <origin
+        xyz="-8.767E-06 0.21456 -0.62205"
+        rpy="0 0 0" />
+      <mass
+        value="18.868" />
+      <inertia
+        ixx="0.22253"
+        ixy="-2.891E-06"
+        ixz="2.4315E-05"
+        iyy="0.82119"
+        iyz="0.012745"
+        izz="0.63805" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Fusilage.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Fusilage.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Aileron_Right">
+    <inertial>
+      <origin
+        xyz="-0.019922 -0.00081192 0.23501"
+        rpy="0 0 0" />
+      <mass
+        value="0.97469" />
+      <inertia
+        ixx="0.020367"
+        ixy="-2.1215E-05"
+        ixz="-0.0002179"
+        iyy="0.02078"
+        iyz="-6.8753E-05"
+        izz="0.00046663" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Aileron_Right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Aileron_Right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Aileron_Right_Hinge"
+    type="revolute">
+    <origin
+      xyz="-0.29646 0.2363 -0.63316"
+      rpy="-0.035889 -1.3866 -0.031226" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Aileron_Right" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Aileron_Left">
+    <inertial>
+      <origin
+        xyz="0.019034 0.0059408 0.23196"
+        rpy="0 0 0" />
+      <mass
+        value="0.97469" />
+      <inertia
+        ixx="0.020399"
+        ixy="-0.0001145"
+        ixz="0.00022835"
+        iyy="0.020745"
+        iyz="8.6241E-06"
+        izz="0.00046662" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Aileron_Left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Aileron_Left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Aileron_Left_Hinge"
+    type="revolute">
+    <origin
+      xyz="0.29646 0.2363 -0.63316"
+      rpy="-1.0868 1.1664 -1.0529" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Aileron_Left" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Nacelle_Right">
+    <inertial>
+      <origin
+        xyz="-0.0072205 -0.021648 -0.1041"
+        rpy="0 0 0" />
+      <mass
+        value="0.68155" />
+      <inertia
+        ixx="0.006599"
+        ixy="-0.00060446"
+        ixz="-3.2779E-05"
+        iyy="0.002204"
+        iyz="0.00059278"
+        izz="0.0054309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Nacelle_Right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Nacelle_Right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Nacelle_Right_Hinge"
+    type="revolute">
+    <origin
+      xyz="-0.79367 0.26882 -0.45679"
+      rpy="1.727 -0.18776 1.4822" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Nacelle_Right" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Rotor_Right">
+    <inertial>
+      <origin
+        xyz="-2.5504E-06 1.6016E-05 -0.080475"
+        rpy="0 0 0" />
+      <mass
+        value="1.6019" />
+      <inertia
+        ixx="0.0021104"
+        ixy="-0.0015155"
+        ixz="-5.2517E-08"
+        iyy="0.0091357"
+        iyz="3.2407E-07"
+        izz="0.0099008" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Rotor_Right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Rotor_Right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Rotor_Right_Hinge"
+    type="continuous">
+    <origin
+      xyz="0.023418 0.13912 -0.14859"
+      rpy="1.0204 -1.2732 0.34031" />
+    <parent
+      link="Nacelle_Right" />
+    <child
+      link="Rotor_Right" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Nacelle_Left">
+    <inertial>
+      <origin
+        xyz="-0.0030129 -0.022561 0.10413"
+        rpy="0 0 0" />
+      <mass
+        value="0.68129" />
+      <inertia
+        ixx="0.0066631"
+        ixy="0.00025421"
+        ixz="0.00014358"
+        iyy="0.0021353"
+        iyz="-0.00057379"
+        izz="0.0054287" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Nacelle_Left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Nacelle_Left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Nacelle_Left_Hinge"
+    type="revolute">
+    <origin
+      xyz="0.79367 0.26882 -0.45679"
+      rpy="1.4174 -0.0010657 1.6302" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Nacelle_Left" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Rotor_Left">
+    <inertial>
+      <origin
+        xyz="6.2391E-07 1.6207E-05 -0.080475"
+        rpy="0 0 0" />
+      <mass
+        value="1.6019" />
+      <inertia
+        ixx="0.0017978"
+        ixy="-5.5104E-05"
+        ixz="1.2013E-08"
+        iyy="0.0094483"
+        iyz="3.2813E-07"
+        izz="0.0099008" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Rotor_Left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Rotor_Left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Rotor_Left_Hinge"
+    type="continuous">
+    <origin
+      xyz="-0.0033164 0.14104 0.14859"
+      rpy="2.5672 -1.3871 -0.98869" />
+    <parent
+      link="Nacelle_Left" />
+    <child
+      link="Rotor_Left" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Ruddervator_Right">
+    <inertial>
+      <origin
+        xyz="0.0056426 -0.049745 -0.087777"
+        rpy="0 0 0" />
+      <mass
+        value="1.3079" />
+      <inertia
+        ixx="0.0080629"
+        ixy="0.0003931"
+        ixz="-9.1971E-06"
+        iyy="0.0046427"
+        iyz="7.9676E-05"
+        izz="0.003608" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Ruddervator_Right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Ruddervator_Right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ruddervator_Right_Hinge"
+    type="revolute">
+    <origin
+      xyz="-0.041601 0.22044 -1.4097"
+      rpy="1.4806 0.08969 0.77486" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Ruddervator_Right" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Ruddervator_Left">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Ruddervator_Left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Tiltrotor_6D/meshes/Ruddervator_Left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ruddervator_Left_Hinge"
+    type="revolute">
+    <origin
+      xyz="0.041601 0.22044 -1.4097"
+      rpy="1.8074 1.1781 2.5778" />
+    <parent
+      link="Fusilage" />
+    <child
+      link="Ruddervator_Left" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

@@ -1,0 +1,37 @@
+Mass properties of Rotor_Complete
+     Configuration: Default-_flexible1
+     Coordinate system: Origin_Right_Rotor_Revolute
+
+Mass = 1.653344 kilograms
+
+Volume = 0.001150 cubic meters
+
+Surface area = 0.600892 square meters
+
+Center of mass: ( meters )
+	X = 0.000000
+	Y = -0.000021
+	Z = 0.062094
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = ( 0.996320,  0.085717,  0.000001)   	Px = 0.003209
+	 Iy = (-0.000101,  0.001185, -0.999999)   	Py = 0.052456
+	 Iz = (-0.085717,  0.996319,  0.001189)   	Pz = 0.053358
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 0.003578	Lxy = 0.004283	Lxz = 0.000000
+	Lyx = 0.004283	Lyy = 0.052990	Lyz = -0.000001
+	Lzx = 0.000000	Lzy = -0.000001	Lzz = 0.052456
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 0.009953	Ixy = 0.004283	Ixz = 0.000000
+	Iyx = 0.004283	Iyy = 0.059365	Iyz = -0.000003
+	Izx = 0.000000	Izy = -0.000003	Izz = 0.052456
+
+One or more components have overridden mass properties:
+	DJI10033<1><Rotor>
+	Rotor_deco_42<2><Default>
+	Rotor_deco_42<3><Default>

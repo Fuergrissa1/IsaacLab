@@ -1,0 +1,31 @@
+Mass properties of selected components
+     Coordinate system: Origin_Right_Nacelle_hinge
+
+Mass = 3.222442 kilograms
+
+Volume = 0.001691 cubic meters
+
+Surface area = 0.803877 square meters
+
+Center of mass: ( meters )
+	X = -0.071202
+	Y = -0.002228
+	Z = 0.116351
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = (-0.996695, -0.078994, -0.018951)   	Px = 0.006793
+	 Iy = ( 0.021607, -0.032911, -0.999225)   	Py = 0.030561
+	 Iz = ( 0.078309, -0.996332,  0.034509)   	Pz = 0.032280
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 0.006960	Lxy = 0.002005	Lxz = 0.000444
+	Lyx = 0.002005	Lyy = 0.032119	Lyz = 0.000095
+	Lzx = 0.000444	Lzy = 0.000095	Lzz = 0.030554
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 0.050600	Ixy = 0.002517	Ixz = -0.026252
+	Iyx = 0.002517	Iyy = 0.092080	Iyz = -0.000741
+	Izx = -0.026252	Izy = -0.000741	Izz = 0.046907

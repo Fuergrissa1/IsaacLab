@@ -1,0 +1,35 @@
+Mass properties of Fusilage_Scratch_4
+     Configuration: Ruddervator
+     Coordinate system: Origin_Right_RudderVator_Hinge
+
+The center of mass and the moments of inertia are output in the coordinate system of Assembly
+Density = 1780.000000 kilograms per cubic meter
+
+Mass = 1.307926 kilograms
+
+Volume = 0.000735 cubic meters
+
+Surface area = 0.095591 square meters
+
+Center of mass: ( meters )
+	X = 0.005643
+	Y = -0.049744
+	Z = -0.087776
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = (-0.009077,  0.079700, -0.996778)   	Px = 0.003602
+	 Iy = (-0.112365,  0.990424,  0.080216)   	Py = 0.004605
+	 Iz = ( 0.993626,  0.112731, -0.000035)   	Pz = 0.008108
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 0.008063	Lxy = -0.000393	Lxz = 0.000009
+	Lyx = -0.000393	Lyy = 0.004643	Lyz = -0.000080
+	Lzx = 0.000009	Lzy = -0.000080	Lzz = 0.003608
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 0.021377	Ixy = -0.000760	Ixz = -0.000639
+	Iyx = -0.000760	Iyy = 0.014762	Iyz = 0.005631
+	Izx = -0.000639	Izy = 0.005631	Izz = 0.006886

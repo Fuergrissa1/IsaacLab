@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'Aileron_Right_Hinge', 'Aileron_Left_Hinge', 'Nacelle_Right_Hinge', 'Rotor_Right_Hinge', 'Nacelle_Left_Hinge', 'Rotor_Left_Hinge', 'Ruddervator_Right_Hinge', 'Ruddervator_Left_Hinge', ]

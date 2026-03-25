@@ -1,0 +1,34 @@
+Mass properties of Fusilage_Scratch_4
+     Configuration: Default
+     Coordinate system: -- default --
+
+Density = 1780.00 kilograms per cubic meter
+
+Mass = 3.86 kilograms
+
+Volume = 0.00 cubic meters
+
+Surface area = 4.31 square meters
+
+Center of mass: ( meters )
+	X = 0.00
+	Y = 0.17
+	Z = -0.66
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = ( 0.00, -0.12,  0.99)   	Px = 0.47
+	 Iy = ( 1.00,  0.00,  0.00)   	Py = 0.55
+	 Iz = ( 0.00,  0.99,  0.12)   	Pz = 0.91
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 0.55	Lxy = 0.00	Lxz = 0.00
+	Lyx = 0.00	Lyy = 0.91	Lyz = -0.05
+	Lzx = 0.00	Lzy = -0.05	Lzz = 0.48
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 2.32	Ixy = 0.00	Ixz = 0.00
+	Iyx = 0.00	Iyy = 2.57	Iyz = -0.48
+	Izx = 0.00	Izy = -0.48	Izz = 0.58

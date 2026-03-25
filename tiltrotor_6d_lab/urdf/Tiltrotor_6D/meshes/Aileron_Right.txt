@@ -1,0 +1,35 @@
+Mass properties of Aileron_Right
+     Configuration: WingRight
+     Coordinate system: Origin_Right_Aileron_Hinge
+
+The center of mass and the moments of inertia are output in the coordinate system of Assembly
+Density = 1780.000000 kilograms per cubic meter
+
+Mass = 0.974692 kilograms
+
+Volume = 0.000548 cubic meters
+
+Surface area = 0.113086 square meters
+
+Center of mass: ( meters )
+	X = -0.019605
+	Y = -0.003630
+	Z = 0.230941
+
+Principal axes of inertia and principal moments of inertia: ( kilograms * square meters )
+Taken at the center of mass.
+	 Ix = (-0.010358, -0.004915, -0.999934)   	Px = 0.000464
+	 Iy = (-0.981566, -0.190800,  0.011106)   	Py = 0.020369
+	 Iz = (-0.190842,  0.981617, -0.002848)   	Pz = 0.020782
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the center of mass and aligned with the output coordinate system. (Using positive tensor notation.)
+	Lxx = 0.020382	Lxy = 0.000078	Lxz = 0.000206
+	Lyx = 0.000078	Lyy = 0.020766	Lyz = 0.000099
+	Lzx = 0.000206	Lzy = 0.000099	Lzz = 0.000467
+
+Moments of inertia: ( kilograms * square meters )
+Taken at the output coordinate system. (Using positive tensor notation.)
+	Ixx = 0.072379	Ixy = 0.000148	Ixz = -0.004207
+	Iyx = 0.000148	Iyy = 0.073125	Iyz = -0.000718
+	Izx = -0.004207	Izy = -0.000718	Izz = 0.000854
